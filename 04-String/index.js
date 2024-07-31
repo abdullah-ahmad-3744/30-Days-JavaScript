@@ -3,35 +3,35 @@ const prompt = require("prompt-sync") ();
 // let name = prompt("Enter your name :- ");
 // console.log(name);
 // Trim method removes the white spaces from  both ends of the string Strings are immutable in java script so trim method creates another string 
-// console.log(name.trim());
-// let newName = name.trim();
-// console.log(newName);
+console.log(name.trim());
+let newName = name.trim();
+console.log(newName);
 
 
 // Uppper case and lower case methods
-// let upperCase = name.toUpperCase();
-// console.log(upperCase);
+let upperCase = name.toUpperCase();
+console.log(upperCase);
+let lowerCase = name.toLowerCase();
+console.log(lowerCase);
 
-// let lowerCase = name.toLowerCase();
-// console.log(lowerCase);
+
 
 // Index of method return the first occurance of the value 
-
-// let userNmae = "Abdullah Ahmad"; 
-// console.log(userNmae.indexOf("Ahmad"));  // It return the index of A which is 9
-// console.log(userNmae.indexOf("a")); //  passing a single value
-// console.log(userNmae.indexOf("t")); // If the value is not found int the string then it return -1
+let userNmae = "Abdullah Ahmad"; 
+console.log(userNmae.indexOf("Ahmad"));  // It return the index of A which is 9
+console.log(userNmae.indexOf("a")); //  passing a single value
+console.log(userNmae.indexOf("t")); // If the value is not found int the string then it return -1
 
 
 // Method chaining
-// let message = "   IloveCoding,       ";  // Remove white spaces and convert the message to upperCase.
-// console.log(message);
-// let newMessage = message.trim().toUpperCase();
-// console.log(newMessage);
+let message = "   IloveCoding,       ";  // Remove white spaces and convert the message to upperCase.
+console.log(message);
+let newMessage = message.trim().toUpperCase();
+console.log(newMessage);
 
-// // replace and repeat method 
-// console.log(newMessage.replace("LOVE", "DO")); // replacig the part of as string
-// console.log(newMessage.repeat(5)); // repeate th string the times we pass in it
+// replace and repeat method 
+console.log(newMessage.replace("LOVE", "DO")); // replacig the part of as string
+console.log(newMessage.repeat(5)); // repeate th string the times we pass in it
 
 
 
@@ -44,7 +44,7 @@ for (let index = 0; index < string.length; index++) {
 }
 // *********************************************************************************************************************
 
-
+ 
 
 
 // ************************************   Q No.2    *********************************************************
