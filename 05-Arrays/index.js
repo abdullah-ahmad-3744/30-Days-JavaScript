@@ -25,9 +25,14 @@ console.log(months);
  let numberArray1 = [1,2,3,4,5];
  let numberArray2 = [6,7,8,9,10]
  let numberArray3 = numberArray1.concat(numberArray2);
- console.log(numberArray3);
+//  console.log(numberArray3);
 
  let primaryColors = ["red", "yellow", "blue"]
  let secondaryColors = ["orange", "green", "voilet"]
  let allColors = primaryColors.concat(secondaryColors)
- console.log(allColors);
+//  console.log(allColors);
+//  Reversing the arrays 
+let reversedNumberArray = numberArray3.reverse()
+console.log(reversedNumberArray);
+let reversedPrimaryColors = primaryColors.reverse()
+console.log(reversedPrimaryColors);
