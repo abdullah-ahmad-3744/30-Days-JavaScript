@@ -25,3 +25,30 @@ const post = {
     tags : ["@adam", "@Ali"]
 }
 console.log(post.likes);
+// *********************************************************************************************************************
+
+
+
+
+// ************************************   Q No.2    *********************************************************
+//  Perform the following operation on existing objects  => change city name , add a new property gender, change the age , delete any property 
+// Creating an object 
+const student = {
+    name : "Abdullah Ahmad",
+    age : 22,
+    city : "Bahawalpur",
+    marks : 92.32
+}
+// Changing the city name
+student.city = "Lahore";
+console.log(student.city); // City is updated to new city lahore 
+// Adding a new property gender in student object 
+student.gender = "Male";
+console.log(student.gender); // New property gender added in student object 
+// Deleting a property from student Object 
+delete student.marks
+console.log(student); // Marks property is deleted from student object 
+// *********************************************************************************************************************
+
+
+
