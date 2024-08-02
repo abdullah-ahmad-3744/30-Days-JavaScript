@@ -14,7 +14,7 @@ console.log(Object.address);
 
 
 
-// ************************************   Q No.4    *********************************************************
+// ************************************   Q No.1    *********************************************************
 // Creat an object literal for the properties of thread/twitter post which includes =>[ userName, content, likes, reposts,tags ]
 
 const post = {
