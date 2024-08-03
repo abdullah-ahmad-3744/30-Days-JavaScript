@@ -139,6 +139,10 @@ console.log(Math.floor(Math.random() * 100 ) +1 );
 
 // Generating a random number from 1 to 5 
 console.log(Math.floor(Math.random() * 5) + 1);
+
+// Generating random numbers from 35 to 85
+console.log(Math.floor(Math.random() * 45) + 35 );
+
 // *********************************************************************************************************************
 
 
