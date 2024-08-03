@@ -100,8 +100,8 @@ console.log(Math.abs(-23));
 
 
 // Random metod of math object 
-let randomNumber = Math.random(); //Generates a random numner
-console.log(randomNumber);
+let random = Math.random(); //Generates a random numner
+console.log(random);
 
 
 // Floor method of Math object 
@@ -119,3 +119,19 @@ let powerMethod = Math.pow(2,8);
 console.log(powerMethod);
 
 // *********************************************************************************************************************
+
+
+
+
+// ************************************   Q No.4    *********************************************************
+// Generate a random integer from one to ten 
+let randomNumber = Math.random() * 10;    // Multiplying by 10 because range is from 1 to 10
+ // Now converting this random number to an integer
+let randomInteger = Math.floor(randomNumber) + 1;
+console.log(randomInteger);
+
+// Now converting into single line 
+console.log(Math.floor(Math.random() * 10) + 1);
+// *********************************************************************************************************************
+
+
