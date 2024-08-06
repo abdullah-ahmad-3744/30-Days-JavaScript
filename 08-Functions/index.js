@@ -19,7 +19,7 @@ function printNumbers () {
         
     }
 }
-// printNumbers();
+printNumbers();
 
 
 // Create a function to roll a dice and always display the value of the dice (1 to 6)
@@ -39,3 +39,39 @@ function greeting(userName) {
 }
 greeting(userName);
 
+
+
+// create a function that gives the average of three numbers 
+let number1 = parseInt(prompt("Enter your first Number :- "));
+let number2 = parseInt(prompt("Entr your second Number :- "));
+let number3 = parseInt(prompt("Enter your third Number :- "));
+
+function calculateAverage (number1, number2, number3) {
+    console.log((number1 + number2 + number3 ) / 3);
+}
+calculateAverage(number1, number2, number3); 
+
+
+
+// Create a function that prints the multiplication table of a given number 
+let userNumber = parseInt(prompt("Enter your number to print it's table :- "))
+function printTable (userNumber) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${userNumber} * ${i} = ${userNumber * i}`);
+    }
+}
+printTable(userNumber)
+
+
+
+// Create a functions which concate all the strings and return a single string as output 
+
+let strArray = ["Hi", "Hello", "By", "!"]
+let resultedString = "";
+function concateStrings (strArray) {
+    for (let i = 0; i < strArray.length; i++) {
+        resultedString = resultedString + strArray[i]        
+    }
+    return resultedString
+}
+console.log(concateStrings(strArray));
