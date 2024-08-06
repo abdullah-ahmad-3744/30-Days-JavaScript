@@ -1,3 +1,4 @@
+const prompt = require ("prompt-sync") ();
 // Functions in javaScript
 // Defining a function
 function hello () {
@@ -28,3 +29,13 @@ function rollDice() {
     console.log(randomNumber);
 }
 rollDice();
+
+
+
+// Functions with parameters 
+let userName = prompt("Enter Your name :- ")
+function greeting(userName) {
+    console.log(`${userName} Welcome to our site :- ` );
+}
+greeting(userName);
+
