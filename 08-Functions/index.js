@@ -1,77 +1,85 @@
 const prompt = require ("prompt-sync") ();
-// Functions in javaScript
-// Defining a function
-function hello () {
-    console.log("Hello");
-} 
+// // Functions in javaScript
+// // Defining a function
+// function hello () {
+//     console.log("Hello");
+// } 
 
-// Calling the function
-hello()
-// ********************************************************************************************************************
-
-
+// // Calling the function
+// hello()
+// // ********************************************************************************************************************
 
 
-// Write a function which prints the numbers from 1 to 10 
-function printNumbers () {
-    for (let index = 1; index <= 10; index++) {
-        console.log(index);
+
+
+// // Write a function which prints the numbers from 1 to 10 
+// function printNumbers () {
+//     for (let index = 1; index <= 10; index++) {
+//         console.log(index);
         
-    }
+//     }
+// }
+// printNumbers();
+
+
+// // Create a function to roll a dice and always display the value of the dice (1 to 6)
+
+// function rollDice() {
+//     let randomNumber = Math.floor(Math.random() * 6) + 1 ;
+//     console.log(randomNumber);
+// }
+// rollDice();
+
+
+
+// // Functions with parameters 
+// let userName = prompt("Enter Your name :- ")
+// function greeting(userName) {
+//     console.log(`${userName} Welcome to our site :- ` );
+// }
+// greeting(userName);
+
+
+
+// // create a function that gives the average of three numbers 
+// let number1 = parseInt(prompt("Enter your first Number :- "));
+// let number2 = parseInt(prompt("Entr your second Number :- "));
+// let number3 = parseInt(prompt("Enter your third Number :- "));
+
+// function calculateAverage (number1, number2, number3) {
+//     console.log((number1 + number2 + number3 ) / 3);
+// }
+// calculateAverage(number1, number2, number3); 
+
+
+
+// // Create a function that prints the multiplication table of a given number 
+// let userNumber = parseInt(prompt("Enter your number to print it's table :- "))
+// function printTable (userNumber) {
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${userNumber} * ${i} = ${userNumber * i}`);
+//     }
+// }
+// printTable(userNumber)
+
+
+
+// // Create a functions which concate all the strings and return a single string as output 
+
+// let strArray = ["Hi", "Hello", "By", "!"]
+// let resultedString = "";
+// function concateStrings (strArray) {
+//     for (let i = 0; i < strArray.length; i++) {
+//         resultedString = resultedString + strArray[i]        
+//     }
+//     return resultedString
+// }
+// console.log(concateStrings(strArray));
+
+// Highter order functions
+function multipleGreet (func) {
+        func()      
 }
-printNumbers();
-
-
-// Create a function to roll a dice and always display the value of the dice (1 to 6)
-
-function rollDice() {
-    let randomNumber = Math.floor(Math.random() * 6) + 1 ;
-    console.log(randomNumber);
-}
-rollDice();
-
-
-
-// Functions with parameters 
-let userName = prompt("Enter Your name :- ")
-function greeting(userName) {
-    console.log(`${userName} Welcome to our site :- ` );
-}
-greeting(userName);
-
-
-
-// create a function that gives the average of three numbers 
-let number1 = parseInt(prompt("Enter your first Number :- "));
-let number2 = parseInt(prompt("Entr your second Number :- "));
-let number3 = parseInt(prompt("Enter your third Number :- "));
-
-function calculateAverage (number1, number2, number3) {
-    console.log((number1 + number2 + number3 ) / 3);
-}
-calculateAverage(number1, number2, number3); 
-
-
-
-// Create a function that prints the multiplication table of a given number 
-let userNumber = parseInt(prompt("Enter your number to print it's table :- "))
-function printTable (userNumber) {
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${userNumber} * ${i} = ${userNumber * i}`);
-    }
-}
-printTable(userNumber)
-
-
-
-// Create a functions which concate all the strings and return a single string as output 
-
-let strArray = ["Hi", "Hello", "By", "!"]
-let resultedString = "";
-function concateStrings (strArray) {
-    for (let i = 0; i < strArray.length; i++) {
-        resultedString = resultedString + strArray[i]        
-    }
-    return resultedString
-}
-console.log(concateStrings(strArray));
+multipleGreet(function () {
+    console.log("Higher order function");  
+})
