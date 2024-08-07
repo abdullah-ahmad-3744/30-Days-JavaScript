@@ -77,9 +77,24 @@ const prompt = require ("prompt-sync") ();
 // console.log(concateStrings(strArray));
 
 // Highter order functions
-function multipleGreet (func) {
+function higherOrderFunction (func) {
         func()      
 }
-multipleGreet(function () {
+higherOrderFunction(function () {
     console.log("Higher order function");  
 })
+
+
+
+
+// Create a higher order greet function that greets the user n times. 
+function multiGreet (func,num) {
+    for (let i = 1; i <= num; i++) {    
+        func()    
+    }
+}
+let greet = function () {
+    console.log("Welcome to our site :- ");   
+}
+let userNumber = parseInt(prompt("Enter your number :- "))
+multiGreet(greet,userNumber)
