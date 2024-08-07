@@ -98,3 +98,22 @@ let greet = function () {
 }
 let userNumbers = parseInt(prompt("Enter your number :- "))
 multiGreet(greet,userNumber)
+
+
+
+
+// // ************************************   Q No.1    *********************************************************
+//  Write a JavaScript function that returns array elements larger than a number in a new array.
+let numArray = [2,4,3,9,10,13,20,26,35,29,21,7,5,11,17]
+let newArray = []
+let number = 15;
+function largerChecker() {
+    for (let i = 0; i < numArray.length; i++) { 
+        if (number < numArray[i]) {
+            newArray.push(numArray[i])
+        }   
+    }
+    console.log(newArray);
+}
+largerChecker(numArray);
+// ********************************************************************************************************************
