@@ -102,7 +102,7 @@ multiGreet(greet,userNumber)
 
 
 
-// // ************************************   Q No.1    *********************************************************
+// ************************************   Q No.1    *********************************************************
 //  Write a JavaScript function that returns array elements larger than a number in a new array.
 let numArray = [2,4,3,9,10,13,20,26,35,29,21,7,5,11,17]
 let newArray = []
