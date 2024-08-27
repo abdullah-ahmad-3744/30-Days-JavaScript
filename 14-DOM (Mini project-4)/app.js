@@ -4,7 +4,6 @@ let box = document.querySelector(".box");
 button.addEventListener("click", (event) => {
     getRandomColor()
 })
-
 function getRandomColor () {
     let redColor = Math.floor(Math.random() * 255);
     let greenColor = Math.floor(Math.random() * 255);
