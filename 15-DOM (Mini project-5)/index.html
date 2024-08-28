@@ -7,30 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-container">
-        <h3>Calculator</h3>
+    <div class="container">
         <div class="calculator">
-            <div class="output" placeholder="0.0">
-                Output
-            </div>
-            <div class="buttons">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>%</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>*</button>
-            <button>3</button>
-            <button>2</button>
-            <button>1</button>
-            <button>+</button>
-            <button>0</button>
-            <button>,</button>
-            <button>C</button>
-            <button>-</button>
-            </div>
+            <form>
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div>
+                    <input type="button" value="AC">
+                    <input type="button" value="DE">
+                    <input type="button" value=".">
+                    <input type="button" value="/">
+                </div>
+                <div>
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*">
+                </div>
+                <div>
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-">
+                </div>
+                <div>
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="+">
+                </div>
+                <div>
+                    <input type="button" value="00">
+                    <input type="button" value="0">
+                    <input type="button" value="=" class="equal">
+                </div>
+            </form>
         </div>
     </div>
     <script src="./app.js"></script>
