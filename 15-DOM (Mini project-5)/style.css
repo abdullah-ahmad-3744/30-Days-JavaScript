@@ -38,7 +38,8 @@ form .display input {
     text-align: right;
     font-size: 45px;
     flex: 1;
-    /* box-shadow: none; */
+    padding: 7px;
+    /* box-shadow: none;  */
 }
 form input.equal{
     width: 145px;
