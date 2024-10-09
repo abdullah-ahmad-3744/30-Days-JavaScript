@@ -7,7 +7,7 @@ Day-wise Challenges: Each folder from Day 1 to Day 25 contains JavaScript proble
 Projects: Includes mini-projects that apply JavaScript concepts in real-world scenarios.
 How to Use
 Clone this repository:
-git clone https://github.com/abdullah-ahmad-3744/30-days-of-javascript.git
+git clone https://github.com/abdullah-ahmad-3744/30-days-of-javascript
 
 
 Explore the day-wise folders for solutions.
